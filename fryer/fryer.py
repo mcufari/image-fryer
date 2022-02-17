@@ -5,10 +5,10 @@ import numpy
 from PIL import Image
 from numpy import random
 
-from fryer import helpers
+import helpers
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + './classifiers/haarcascade_eye.xml')
+eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
 
 # Pass an image to fry, pretty self explanatory
